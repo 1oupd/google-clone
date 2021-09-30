@@ -1,6 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
 
 body {
+    margin: 0%;
     background-color: #ffffff;
     font-family: 'Pontano Sans', sans-serif;
 } 
+
+.nav-all {
+    width: 100%;
+    display: flex;
+}
+
+.nav-all ul {
+    list-style-type: none;
+    color: #222222;
+    
+}
+
+.nav-all ul a {
+    text-decoration: none;
+}
+
+.nav-all a:hover {
+    text-decoration: underline;
+}
+
+.nav-all a:visited {
+    color: #222222;
+}
+.nav-left {
+    width: 50%;
+    margin: 0% 1% 0% 0%;
+    
+}
+
+.nav-left ul {
+    display: flex;
+    
+    
+}
+
+.nav-right {
+    width: 50%;
+    margin: 0% 1% 0% 0%;
+    
+}
+
+.nav-right ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 25%;
+    justify-self: center;
+}
+
+.foot-all {
+    display: flex;
+}
+
+.foot-all ul {
+    list-style-type: none;
+    color: #868686;
+}
+
+.foot-all a {
+    text-decoration: none;
+}
+
+.foot-all a:hover {
+    text-decoration: underline;
+}
+
+.foot-all a:visited {
+    color: #868686;
+}
+
+.foot-all img {
+    width: 2.5%;
+}
+footer {
+    background-color: #F2F2F2;
+    width: 100%;
+    position: fixed;
+}
+
+footer h6 {
+    color: #868686;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* #F2F2F2 */
+
+footer hr {
+    /* height: 1px; */
+    border: 0.1 solid;
+    color: #DADCE0;
+    opacity: 20%;
+}
+
+.foot-left {
+    width: 33.33%;
+    margin: 0% 1% 0% 0%;
+}
+
+.foot-left ul {
+    display: flex;
+
+}
+
+
+.foot-mid {
+    width: 33.33%;
+    margin: 0% 0% 0% 0%;
+}
+
+
+
+.foot-right {
+    
+}
+
+.foot-right ul {
+    display: flex;
+}
