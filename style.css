@@ -53,12 +53,40 @@ body {
 
 .logo {
     display: flex;
+    width: 20%;
+    align-self:center;
 }
 
-.logo img {
-    width: 25%;
-    justify-self: center;
+
+
+
+.container {
+    display: flex;
+    align-content:center;
 }
+
+.search {
+    
+}
+
+#srch {
+    alig-self: center;
+}
+
+.buttons {
+    display: flex;
+}
+
+#b1 {
+
+}
+
+#b2 {
+
+}
+
+
+
 
 .foot-all {
     display: flex;
@@ -87,7 +115,7 @@ body {
 footer {
     background-color: #F2F2F2;
     width: 100%;
-    position: fixed;
+    position:relative;
 }
 
 footer h6 {
