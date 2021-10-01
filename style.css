@@ -54,8 +54,8 @@ body {
 
 .logo {
     display: flex;
-    width: 20%;
-    align-self:center;
+    justify-content: center;
+    
 }
 
 .tl1, .tl2 {
@@ -85,8 +85,8 @@ body {
 .search {
     color:#404144;
     opacity: 0.7;
-    /* align-self:center;
-     */
+    display: flex;
+    justify-content: center;
 }
 
 #srch {
@@ -102,6 +102,7 @@ body {
 
 .buttons {
     display: flex;
+    justify-content: center;
     
 }
 
@@ -172,6 +173,7 @@ footer hr {
 .foot-left {
     width: 33.33%;
     margin: 0% 1% 0% 0%;
+    display: flex;
 }
 
 .foot-left ul {
@@ -189,6 +191,7 @@ footer hr {
 
 
 .foot-right {
+    display: flex;
     width: 33.33%;
     justify-content: flex-end;
 }
